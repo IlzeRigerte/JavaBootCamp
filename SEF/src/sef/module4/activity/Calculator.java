@@ -46,7 +46,7 @@ public class Calculator {
 			diff = x - y;
 		} else {
 			diff = y - x;
-		}
+		}3
 
 		return diff;
 	}
