@@ -27,7 +27,7 @@ public class Calculator {
 //	System.out.println("Multiply - " + multiply(nums));
 	System.out.println("Divide - " + divide(x,y));
 	
-	if 
+
 	
 	}
 
@@ -64,11 +64,11 @@ public class Calculator {
 		int divValue = 0;
 		if (x == 0 || y == 0) {
 			System.out.println("One of the number is 0, I can't do the divide operation");
-			divValue = 0;
-			return ;
-			// complete the code 
+
+			// complete the code
+
 		} else {
-			divValue = x/y;
+			divValue = (int) x/y;
 			// complete the code
 		}
 		return divValue;

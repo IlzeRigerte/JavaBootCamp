@@ -24,7 +24,7 @@ public class AddWholeNum {
 		
 		// complete the code. write for loop for i
 
-		int total = + i;
+
 		for (int i = 50; i <=100; i++) {
 			total = total + 1;
 		}
