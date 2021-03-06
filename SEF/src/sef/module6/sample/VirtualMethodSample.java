@@ -2,12 +2,11 @@ package sef.module6.sample;
 
 public class VirtualMethodSample {
 	public static void main(String arg[]){
-		Person_P p = new Person_P();
-		Person_P p = new 
+		sef.module6.sample.Person_P p = new sef.module6.sample.Person_P();
 		p.setName("John Doe");
 		
 		//Student inherits the methods and behavior from the Person class
-		Student_P s = new Student_P();
+		sef.module6.sample.Student_P s = new sef.module6.sample.Student_P();
 		s.setName("Jane Doe");
 	
 		s.setSchool("A Fictional School");
@@ -18,7 +17,7 @@ public class VirtualMethodSample {
 	
 	}
 	
-	public static void rollCall(Person_P temp){
+	public static void rollCall(sef.module6.sample.Person_P temp){
 			temp.announce();
 	}
 }

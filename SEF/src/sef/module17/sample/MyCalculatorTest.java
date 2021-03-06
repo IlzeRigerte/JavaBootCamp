@@ -1,22 +1,24 @@
-package sef.module17.sample;
+package sample;
 // Complete Code
 import junit.framework.TestCase;
+import org.junit.Test;
+
 
 public class MyCalculatorTest extends TestCase {
 
-	private MyCalculator theCalculator;
+	private sef.module17.sample.MyCalculator theCalculator;
 
 	protected void setUp() throws Exception {
 		super.setUp();
 		//	Initialize variables to be used here
-		theCalculator = new MyCalculator();
+		theCalculator = new sef.module17.sample.MyCalculator();
 	}
 
 	protected void tearDown() throws Exception {
 		super.tearDown();
 	}
 
-
+@Test
 	public void testGetSum() {
 		
 		int a = 5;
@@ -112,7 +114,7 @@ public class MyCalculatorTest extends TestCase {
 				theCalculator.getDifference(3, 3);
 				theCalculator.getProduct(0, 1);
 				theCalculator.getQuotient(1, 0);
-				new MyCalculator();
+				new sef.module17.sample.MyCalculator();
 					
 			} catch (Exception e) {
 				fail();

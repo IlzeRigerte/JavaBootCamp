@@ -1,7 +1,7 @@
 package sef.module6.activity;
 
 // class Employee_I must extend class Person_I. Complete code for the same
-public class Employee_I extends Person_I {
+public class Employee_I extends sef.module6.activity.Person_I {
 	
 	//Attributes
 	private double salary;

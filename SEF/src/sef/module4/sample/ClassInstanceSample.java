@@ -1,16 +1,13 @@
-package sef.module4.sample;
-
-import java.util.Calendar;
-
+package sample;
 
 public class ClassInstanceSample {
 
 	public static void main(String arg[]){
 		
 		//Object instance creation using 'new' and passing parameters to constructors
-		Person him = new Person("John Doe");
-		Person her = new Person("Jane Doe");
-		Person unknown = new Person();
+		sef.module4.sample.Person him = new sef.module4.sample.Person("John Doe");
+		sef.module4.sample.Person her = new sef.module4.sample.Person("Jane Doe");
+		sef.module4.sample.Person unknown = new sef.module4.sample.Person();
 		
 		
 		//Access an object's member method to invoke a behavior
